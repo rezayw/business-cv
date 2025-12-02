@@ -31,6 +31,10 @@ body{
 .avatar{width:160px;height:160px;object-fit:cover;border-radius:12px;flex:0 0 auto}
 .placeholder{background:linear-gradient(180deg,#eef6fb,#dbeff9);display:block;border-radius:8px}
 
+.about-grid{display:flex;gap:28px;align-items:flex-start}
+.about-aside{flex:0 0 auto}
+.about-content{flex:1}
+
 .cards{margin:22px 0}
 .skills{display:flex;flex-wrap:wrap;gap:12px;padding:0;list-style:none}
 .skill{background:#fff;border:1px solid #e6eef6;padding:12px 16px;border-radius:8px;font-weight:600;color:var(--accent)}
