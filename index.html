@@ -4,43 +4,54 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jonathan Ardi Putra - Portfolio</title>
+    <meta name="description" content="Portfolio of Jonathan Ardi Putra — web developer. Projects, skills, and contact.">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
 </head>
 <body>
-    <header>
-        <h1>Jonathan Ardi Putra</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
+    <header class="site-header">
+        <div class="container header-inner">
+            <h1 class="site-title">Jonathan Ardi Putra</h1>
+            <nav class="site-nav" aria-label="Main navigation">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
     <main>
-        <section id="profile">
-            <h2>Profile</h2>
-            <p>Welcome to my portfolio! I am Jonathan Ardi Putra, a passionate developer with a keen interest in creating innovative solutions.</p>
-        </section>
+        <div class="container">
+            <section id="profile" class="hero">
+                <div class="hero-inner">
+                    <img src="assets/images/placeholder.svg" alt="Profile placeholder" class="placeholder avatar" width="220" height="220" loading="lazy">
+                    <div class="hero-copy">
+                        <h2>Profile</h2>
+                        <p>Welcome to my portfolio! I am Jonathan Ardi Putra, a passionate developer focused on creating accessible and performant web experiences.</p>
+                        <p class="muted">Available for freelance and full-time roles — open to new opportunities.</p>
+                    </div>
+                </div>
+            </section>
 
-        <section id="skills">
-            <h2>Skills</h2>
-            <ul>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JavaScript</li>
-                <li>Responsive Design</li>
-                <li>Web Development</li>
-            </ul>
-        </section>
+            <section id="skills" class="cards">
+                <h2>Skills</h2>
+                <ul class="skills">
+                    <li class="skill">HTML</li>
+                    <li class="skill">CSS</li>
+                    <li class="skill">JavaScript</li>
+                    <li class="skill">Responsive Design</li>
+                    <li class="skill">Web Development</li>
+                </ul>
+            </section>
 
-        <section id="experience">
-            <h2>Experience</h2>
-            <p>I have worked on various projects that showcase my skills and dedication to web development.</p>
-        </section>
+            <section id="experience" class="cards">
+                <h2>Experience</h2>
+                <p>I have worked on various projects that showcase my skills and dedication to web development.</p>
+            </section>
+        </div>
     </main>
 
     <footer>

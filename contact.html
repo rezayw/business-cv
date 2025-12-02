@@ -4,45 +4,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact - Jonathan Ardi Putra</title>
+    <meta name="description" content="Contact Jonathan Ardi Putra — get in touch for projects and opportunities.">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
 </head>
 <body>
-    <header>
-        <h1>Contact Me</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
+    <header class="site-header">
+        <div class="container header-inner">
+            <h1 class="site-title">Contact Me</h1>
+            <nav class="site-nav" aria-label="Main navigation">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
     <main>
-        <section>
-            <h2>Get in Touch</h2>
-            <form id="contact-form">
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required>
+        <div class="container">
+            <section class="contact-section">
+                <h2>Get in Touch</h2>
+                <form id="contact-form" class="contact-form">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
 
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
 
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" rows="4" required></textarea>
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
 
-                <button type="submit">Send Message</button>
-            </form>
-        </section>
-        <section>
-            <h2>Connect with Me</h2>
-            <ul>
-                <li><a href="https://www.linkedin.com/in/jonathan-ardi-putra" target="_blank">LinkedIn</a></li>
-                <li><a href="https://github.com/jonathan-ardi-putra" target="_blank">GitHub</a></li>
-                <li><a href="https://twitter.com/jonathan_ardi" target="_blank">Twitter</a></li>
-            </ul>
-        </section>
+                    <button type="submit">Send Message</button>
+                </form>
+            </section>
+            <section class="connect">
+                <h2>Connect with Me</h2>
+                <ul>
+                    <li><a href="https://www.linkedin.com/in/jonathan-ardi-putra" target="_blank" rel="noopener">LinkedIn</a></li>
+                    <li><a href="https://github.com/jonathan-ardi-putra" target="_blank" rel="noopener">GitHub</a></li>
+                    <li><a href="https://twitter.com/jonathan_ardi" target="_blank" rel="noopener">Twitter</a></li>
+                </ul>
+            </section>
+        </div>
     </main>
     <footer>
         <p>&copy; 2023 Jonathan Ardi Putra. All rights reserved.</p>
